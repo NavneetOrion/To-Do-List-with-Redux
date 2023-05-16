@@ -24,6 +24,7 @@ export const operationsReducer=(state=initialState, action)=>{
                     item.id = data.id;
                     item.todo = data.todo;
                     item.completed = data.completed;
+                    
                 }
                 updatedArray.push(item);
             })
