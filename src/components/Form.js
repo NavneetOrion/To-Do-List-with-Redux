@@ -12,6 +12,7 @@ export const Form = ({editFormVisibility, editTodo, cancelUpdate}) => {
 
   // state for if someone changes the (to edit) value in update form
   const [editValue, setEditValue]=useState('');
+  
 
   // useEffect is to show the (to edit) value in update form
   useEffect(()=>{
